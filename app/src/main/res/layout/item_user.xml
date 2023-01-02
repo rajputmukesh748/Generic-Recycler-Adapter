@@ -12,4 +12,12 @@
         android:text="Hello World"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSecondAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintTop_toBottomOf="@+id/tvMessage"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
